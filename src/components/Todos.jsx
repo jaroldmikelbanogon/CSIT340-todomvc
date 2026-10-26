@@ -86,6 +86,9 @@ function Todos() {
                     </button>
                     </li>
                 </ul>
+                <button type="button" className="cursor-pointer justify-self-end hover:underline">
+                    Clear completed
+                </button>
                 </footer>
             </div>
     </section>
