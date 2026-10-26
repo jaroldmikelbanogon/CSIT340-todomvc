@@ -56,6 +56,11 @@ function Todos() {
                         </li>
                     </ul>
                 </main>
+                <footer className="grid h-10 grid-cols-3 items-center border-t border-[#e6e6e6] px-[15px] text-[15px]">
+                <span>
+                    <strong className="font-light">1</strong> item left
+                </span>
+                </footer>
             </div>
     </section>
   )
