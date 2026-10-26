@@ -5,8 +5,8 @@ function Todos() {
 const [text, setText] = useState('')
 const [todos, setTodos] = useState([])
 const [filter, setFilter] = useState('all')
-const allCompleted = todos.length > 0 && todos.every(todo => todo.completed)
 
+const allCompleted = todos.length > 0 && todos.every(todo => todo.completed)
 const activeCount = todos.filter(todo => !todo.completed).length
 
 const filteredTodos = todos.filter((todo) => {
